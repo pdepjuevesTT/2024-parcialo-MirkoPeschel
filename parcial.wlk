@@ -122,6 +122,9 @@ method personasConMasBienes(personas) {
     return personas.sort((a, b) => b.bienes.size() - a.bienes.size()).first()
 }
 
+//(7) Hacer test de compra con tarjeta de credito y cobro de sueldo
+    //TODO
+
 //COMPRADORES COMPULSIVOS
 class CompradorCompulsivo inherits Persona {
     comprar(bien, monto) {
@@ -133,4 +136,3 @@ class CompradorCompulsivo inherits Persona {
 
 //PAGADORES COMPULSIVOS
     //TODO
-
